@@ -17,7 +17,7 @@ import { calculateScore, buildSearchKeywords } from '../../domain/services/Scori
 import { BookRepository } from '../ports/BookRepository';
 
 /** Número máximo de libros a devolver */
-const RESULT_COUNT = 30;
+const RESULT_COUNT = 3;
 
 /**
  * Genera las recomendaciones de libros para un perfil dado.
